@@ -1,0 +1,14 @@
+body{margin:0;font-family:system-ui,sans-serif;background:#f3f5f9;color:#1c2333}
+main{max-width:1000px;margin:0 auto;padding:16px}
+h1 small{display:block;font-size:.5em;color:#b45309;font-weight:500}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 1px 4px #0002}
+input{display:block;width:100%;box-sizing:border-box;padding:10px;margin:8px 0;border:1px solid #ccd;border-radius:8px}
+button{background:#2563eb;color:#fff;border:0;padding:10px 16px;border-radius:8px;cursor:pointer}
+button:disabled{opacity:.6}.ghost{background:#e5e7eb;color:#111}.danger{background:#dc2626}
+.err{color:#dc2626}.row{display:flex;gap:8px;margin-top:8px}
+.item,.result{border-top:1px solid #e5e7eb;margin-top:12px;padding-top:12px}
+.badge{padding:4px 10px;border-radius:99px;font-size:.85em;background:#e5e7eb}
+.AUTO_ACCEPTED,.APPROVED,.AUTO_APPROVAL_PATH{background:#d1fae5}
+.PENDING_HUMAN_REVIEW{background:#fef3c7}.REJECTED,.MONITORING_ERROR{background:#fee2e2}
